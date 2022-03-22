@@ -1,6 +1,6 @@
-h1{
-    
-}
+body {
+    background-color: rgb(204, 214, 218);
+  }
 
 ul {
     list-style-type: none;
@@ -32,4 +32,8 @@ ul {
   li a:hover {
     background-color: #111;
   }
+
+section {
+    p.solid {border-style: solid;}
+}
   
