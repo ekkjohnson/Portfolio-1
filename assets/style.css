@@ -1,7 +1,9 @@
 body {
     background-color: rgb(204, 214, 218);
   }
-
+h1{
+    text-align: center;
+}
   ul {
     list-style-type: none;
     margin: 0;
@@ -25,6 +27,13 @@ body {
   
   li a:hover {
     background-color: #111;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
 section {
