@@ -4,6 +4,10 @@ body {
 h1{
     text-align: center;
 }
+img {
+    border: 5px solid #555;
+    display: flexbox;
+  }
   ul {
     list-style-type: none;
     margin: 0;
@@ -23,11 +27,6 @@ h1{
     padding: 14px 16px;
     text-decoration: none;
   }
-  
-  
-  li a:hover {
-    background-color: #111;
-  }
 
   .center {
     display: block;
@@ -36,8 +35,21 @@ h1{
     width: 50%;
   }
 
-section {
-    p.solid {border-style: solid;}
+  #work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #workH2 {
+      display: inherit;
+    align-self: flex-start;
+  }
+
+h3{
+    font-size: large;
+    border: solid #555;
+    display: flexbox;
+    flex-wrap: wrap;
 }
 footer{
     list-style-type: none;
