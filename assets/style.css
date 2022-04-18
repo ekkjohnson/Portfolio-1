@@ -91,3 +91,12 @@ footer{
     padding: 14px 16px;
     text-decoration: none; color: white
 }
+a:visited { 
+  text-decoration: none; 
+  color: white; 
+ }
+
+ a{
+  text-decoration: none; color: white
+ }
+ 
