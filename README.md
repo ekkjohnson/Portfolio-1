@@ -13,7 +13,7 @@ file:///Users/elizabethjohnson/Desktop/bootcamp_homework/Portfolio-1/index.html#
 # License
 * MIT License
 
-#What I added
+# What I added
 * Updated portfolio featuring Project 1 and two exemplary homework assignments.
 
 * Updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
