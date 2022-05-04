@@ -132,3 +132,44 @@ a:visited {
   text-decoration: none; color: white
  }
  
+ @media only screen and (max-width: 1380px) {
+  .side-navbar{
+    font-size: 1.2rem;
+  }
+  .about-right {
+    display: none;
+  }
+  .about-left {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .about-right {
+    display: none;
+  }
+  .about-left {
+    width: 100%;
+  }
+  .side-bar {
+    display: none;
+  }
+  main {
+    width: 100%;
+    margin: 0;
+  }
+  .card {
+    font-size: .8rem;
+  }
+  .bg-navbar {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .card p {
+    display: none;
+  }
+  .project-card {
+    width: 70%;
+  }
+}
